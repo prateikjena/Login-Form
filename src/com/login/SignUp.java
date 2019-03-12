@@ -16,5 +16,6 @@ public class SignUp
 		String pass = request.getParameter("pass");
 		
 		SignUpDao dao = new SignUpDao();
+		dao.signup(uname, pass);
 	}
 }
